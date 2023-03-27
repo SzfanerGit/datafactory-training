@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "first-data-factory-trail"
+		},
+		"AzureBlobStorageDestination_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageSource_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage305_properties_privateLinkResourceId": {
+			"value": "/subscriptions/77cfa810-972b-44d7-9051-8b545d0472fc/resourceGroups/Test_group/providers/Microsoft.Storage/storageAccounts/1storageofafwc2trf"
+		},
+		"AzureBlobStorage305_properties_groupId": {
+			"value": "blob"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
