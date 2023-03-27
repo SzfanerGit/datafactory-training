@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "first-data-factory-trail"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
+		"AzureBlobStorageDest2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageDest2'"
+		},
 		"AzureBlobStorageDestination_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageDestination'"
@@ -49,6 +57,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
+					"AzureBlobStorageDest2_connectionString": {
+						"value": "[parameters('AzureBlobStorageDest2_connectionString')]"
 					},
 					"AzureBlobStorageDestination_connectionString": {
 						"value": "[parameters('AzureBlobStorageDestination_connectionString')]"

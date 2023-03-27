@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "first-data-factory-trail"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageDest2_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorageDestination_connectionString": {
 			"value": ""
 		},
