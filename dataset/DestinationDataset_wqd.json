@@ -11,6 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "destination_file",
+				"folderPath": "PiplineDest",
 				"container": "testing"
 			},
 			"columnDelimiter": ",",
