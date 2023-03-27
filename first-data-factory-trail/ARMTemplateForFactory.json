@@ -134,7 +134,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"fileName": "destination_file",
+						"fileName": "destination_file.csv",
 						"folderPath": "PiplineDest",
 						"container": "testing"
 					},
