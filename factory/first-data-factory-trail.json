@@ -1,0 +1,9 @@
+{
+	"name": "first-data-factory-trail",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "80a51447-aed9-4e20-82b1-845f164fc828",
+		"tenantId": "eff2ca4d-ecb8-4ab1-89f1-72e1fd9d2a45"
+	}
+}
