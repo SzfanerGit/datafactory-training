@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_wqd",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDestination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "destination_file",
+				"container": "testing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
