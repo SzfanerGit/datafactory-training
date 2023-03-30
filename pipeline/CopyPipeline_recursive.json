@@ -50,29 +50,8 @@
 							"fileExtension": ".txt"
 						}
 					},
-					"enableStaging": false,
-					"validateDataConsistency": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"typeConversion": true,
-						"typeConversionSettings": {
-							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
-						}
-					}
-				},
-				"inputs": [
-					{
-						"referenceName": "SourceDataset_wqd",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "DestinationDataset_wqd",
-						"type": "DatasetReference"
-					}
-				]
+					"enableStaging": false
+				}
 			}
 		],
 		"annotations": []
