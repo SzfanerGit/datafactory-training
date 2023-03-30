@@ -39,7 +39,7 @@
 				"          title = toString(left(title,length(title)-6))) ~> YearExtrection",
 				"YearExtrection sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     partitionFileNames:['MoviesAfterPipeline'],",
+				"     partitionFileNames:['MoviesAfterPipeline.csv'],",
 				"     truncate: true,",
 				"     umask: 0022,",
 				"     preCommands: [],",
